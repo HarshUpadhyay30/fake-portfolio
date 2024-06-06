@@ -1,0 +1,230 @@
+html {
+    scroll-behavior: smooth;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',  sans-serif;
+}
+
+.first-page{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    margin-bottom: 0;
+    
+}
+
+.header{
+    position: fixed;
+    height: 45px;
+    width: 100%;
+    background-color:darkslategrey; 
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    box-sizing:border-box;
+}
+
+.logo{
+    width: 30px; 
+    height: 30px; 
+    border-radius: 50%; /* Make it circular */
+    overflow: hidden;
+    margin-left: 15px;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    color: white;
+}
+
+a{
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Remove default link color */
+  
+}
+
+.intro{
+    height: calc(100% - 45px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.content{
+    text-align: left;
+    font-size: larger;
+}
+
+.lastheading{
+    margin-bottom: 60px;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.intro h1,
+.intro p{ 
+    margin: 0;
+    padding: 0; 
+    color: white; 
+}
+
+.photo{
+    height: 700px;
+    width: 500px;
+}
+
+.skills{
+    background-color: grey;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 20px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.git{
+    height:100px;
+    width: 100px;
+}
+
+.text h2{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+    
+}
+
+.about-me{
+    background-color:darkblue;
+    height: 600px; 
+    color: white;  
+    padding: 35px;
+}
+.about-me h2{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 60px;
+}
+
+about-me p{
+    text-align: left;   
+    margin: 0;
+    padding: 0;
+}
+
+.para1{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 30px;
+}
+
+.para{
+    width: 600px; 
+}
+
+.random-image1{
+    height:400px;
+    width: 400px;
+}
+
+.quote{
+    height: 200px;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote1{
+    font-size: 30px;
+    font-style: italic;
+    width: 800px;
+    justify-content: center;
+    align-content: center;
+}
+
+.author{
+    font-size: 20px;
+    text-align: right;
+    font-weight: bold;
+    width: 800px;
+}
+
+.contact{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 30px;
+}
+
+.contact h3{
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+}
+
+.contact p{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.contact-me{
+    border-radius: 25px;
+    padding: 10px;
+    font-size: 17px;
+    background-color: transparent;
+    color: white;
+    border: solid 1px white;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    
+}
+
+.contact-me:hover {
+    color: black;
+    border: solid 1px black;
+    background-color: white;
+  }
+
+  .footer{
+    background-color: gray;
+  }
+
+  .footer p{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+  }
